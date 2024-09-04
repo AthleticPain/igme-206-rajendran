@@ -1,0 +1,7 @@
+C:\Users\ashan\source\repos\IGME206_Assignment2\IGME206_Assignment2\bin\Debug\IGME206_Assignment2.exe.config
+C:\Users\ashan\source\repos\IGME206_Assignment2\IGME206_Assignment2\bin\Debug\IGME206_Assignment2.exe
+C:\Users\ashan\source\repos\IGME206_Assignment2\IGME206_Assignment2\bin\Debug\IGME206_Assignment2.pdb
+C:\Users\ashan\source\repos\IGME206_Assignment2\IGME206_Assignment2\obj\Debug\IGME206_Assignment2.csproj.AssemblyReference.cache
+C:\Users\ashan\source\repos\IGME206_Assignment2\IGME206_Assignment2\obj\Debug\IGME206_Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\ashan\source\repos\IGME206_Assignment2\IGME206_Assignment2\obj\Debug\IGME206_Assignment2.exe
+C:\Users\ashan\source\repos\IGME206_Assignment2\IGME206_Assignment2\obj\Debug\IGME206_Assignment2.pdb

@@ -1,0 +1,7 @@
+C:\Users\ashan\source\repos\PE_HelloWorld_AshankRajendran\PE_HelloWorld_AshankRajendran\bin\Debug\PE_HelloWorld_AshankRajendran.exe.config
+C:\Users\ashan\source\repos\PE_HelloWorld_AshankRajendran\PE_HelloWorld_AshankRajendran\bin\Debug\PE_HelloWorld_AshankRajendran.exe
+C:\Users\ashan\source\repos\PE_HelloWorld_AshankRajendran\PE_HelloWorld_AshankRajendran\bin\Debug\PE_HelloWorld_AshankRajendran.pdb
+C:\Users\ashan\source\repos\PE_HelloWorld_AshankRajendran\PE_HelloWorld_AshankRajendran\obj\Debug\PE_HelloWorld_AshankRajendran.csproj.AssemblyReference.cache
+C:\Users\ashan\source\repos\PE_HelloWorld_AshankRajendran\PE_HelloWorld_AshankRajendran\obj\Debug\PE_HelloWorld_AshankRajendran.csproj.CoreCompileInputs.cache
+C:\Users\ashan\source\repos\PE_HelloWorld_AshankRajendran\PE_HelloWorld_AshankRajendran\obj\Debug\PE_HelloWorld_AshankRajendran.exe
+C:\Users\ashan\source\repos\PE_HelloWorld_AshankRajendran\PE_HelloWorld_AshankRajendran\obj\Debug\PE_HelloWorld_AshankRajendran.pdb
