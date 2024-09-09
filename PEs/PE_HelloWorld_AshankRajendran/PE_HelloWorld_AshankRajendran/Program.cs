@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PE_HelloWorld_AshankRajendran
 {
@@ -13,8 +9,10 @@ namespace PE_HelloWorld_AshankRajendran
             //Prints the statement "Hello GDP1" and leaves a linebrak after
             Console.WriteLine("Hello GDP1");
 
+            //Prints the second statement
             Console.WriteLine("Console.WriteLine()");
 
+            //Prints the third statement which includes my full name
             Console.WriteLine("I am Ashank Rajendran");
 
         }

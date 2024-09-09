@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ashan\\source\\repos\\PE_HelloWorld_AshankRajendran\\",
+  "WorkspaceRootPath": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_HelloWorld_AshankRajendran\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{583FACC9-3563-4321-91A4-01677A79F098}|PE_HelloWorld_AshankRajendran\\PE_HelloWorld_AshankRajendran.csproj|c:\\users\\ashan\\source\\repos\\pe_helloworld_ashankrajendran\\pe_helloworld_ashankrajendran\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{583FACC9-3563-4321-91A4-01677A79F098}|PE_HelloWorld_AshankRajendran\\PE_HelloWorld_AshankRajendran.csproj|c:\\users\\ashan\\documents\\github\\igme-206-rajendran\\pes\\pe_helloworld_ashankrajendran\\pe_helloworld_ashankrajendran\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{583FACC9-3563-4321-91A4-01677A79F098}|PE_HelloWorld_AshankRajendran\\PE_HelloWorld_AshankRajendran.csproj|solutionrelative:pe_helloworld_ashankrajendran\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ashan\\source\\repos\\PE_HelloWorld_AshankRajendran\\PE_HelloWorld_AshankRajendran\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_HelloWorld_AshankRajendran\\PE_HelloWorld_AshankRajendran\\Program.cs",
               "RelativeDocumentMoniker": "PE_HelloWorld_AshankRajendran\\Program.cs",
-              "ToolTip": "C:\\Users\\ashan\\source\\repos\\PE_HelloWorld_AshankRajendran\\PE_HelloWorld_AshankRajendran\\Program.cs",
+              "ToolTip": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_HelloWorld_AshankRajendran\\PE_HelloWorld_AshankRajendran\\Program.cs",
               "RelativeToolTip": "PE_HelloWorld_AshankRajendran\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T01:29:29.022Z",
               "EditorCaption": ""
