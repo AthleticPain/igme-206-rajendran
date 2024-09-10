@@ -1,0 +1,14 @@
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\bin\Debug\net8.0\DemoFromSlides.exe
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\bin\Debug\net8.0\DemoFromSlides.deps.json
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\bin\Debug\net8.0\DemoFromSlides.runtimeconfig.json
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\bin\Debug\net8.0\DemoFromSlides.dll
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\bin\Debug\net8.0\DemoFromSlides.pdb
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\obj\Debug\net8.0\DemoFromSlides.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\obj\Debug\net8.0\DemoFromSlides.AssemblyInfoInputs.cache
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\obj\Debug\net8.0\DemoFromSlides.AssemblyInfo.cs
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\obj\Debug\net8.0\DemoFromSlides.csproj.CoreCompileInputs.cache
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\obj\Debug\net8.0\DemoFromSlides.dll
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\obj\Debug\net8.0\refint\DemoFromSlides.dll
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\obj\Debug\net8.0\DemoFromSlides.pdb
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\obj\Debug\net8.0\DemoFromSlides.genruntimeconfig.cache
+D:\Profiles\ar9666\source\repos\DemoFromSlides\DemoFromSlides\obj\Debug\net8.0\ref\DemoFromSlides.dll

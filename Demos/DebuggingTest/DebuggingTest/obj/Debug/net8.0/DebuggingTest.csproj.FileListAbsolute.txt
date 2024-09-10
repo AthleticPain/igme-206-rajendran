@@ -1,0 +1,14 @@
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\bin\Debug\net8.0\DebuggingTest.exe
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\bin\Debug\net8.0\DebuggingTest.deps.json
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\bin\Debug\net8.0\DebuggingTest.runtimeconfig.json
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\bin\Debug\net8.0\DebuggingTest.dll
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\bin\Debug\net8.0\DebuggingTest.pdb
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\obj\Debug\net8.0\DebuggingTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\obj\Debug\net8.0\DebuggingTest.AssemblyInfoInputs.cache
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\obj\Debug\net8.0\DebuggingTest.AssemblyInfo.cs
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\obj\Debug\net8.0\DebuggingTest.csproj.CoreCompileInputs.cache
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\obj\Debug\net8.0\DebuggingTest.dll
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\obj\Debug\net8.0\refint\DebuggingTest.dll
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\obj\Debug\net8.0\DebuggingTest.pdb
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\obj\Debug\net8.0\DebuggingTest.genruntimeconfig.cache
+D:\Profiles\ar9666\source\repos\DebuggingTest\DebuggingTest\obj\Debug\net8.0\ref\DebuggingTest.dll
