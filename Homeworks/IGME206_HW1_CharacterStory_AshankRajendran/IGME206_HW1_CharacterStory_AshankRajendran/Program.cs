@@ -12,15 +12,15 @@
             string characterName = "Hegg Greffley"; //Main Character's name
 
             //Base Rizz value determines the character's base attack value
-            const float BaseRizz = 6;
+            const double BaseRizz = 6;
 
             //Maximum Confidence is the character's Maximum Hit Points
-            const float MaxConfidence = 100;
+            const double MaxConfidence = 100;
 
             //Current Confidence is the character's Current Hit Points
-            float currentConfidence = MaxConfidence;
+            double currentConfidence = MaxConfidence;
 
-            float experiencePoints = 0; //Character's experience points
+            double experiencePoints = 0; //Character's experience points
             int characterLevel = 1; //Character's level
 
             //Girlfriend count. Represents the number of battles won
@@ -31,26 +31,26 @@
 
             //Enemy details
             string enemyName = "Feather Fills";
-            const float EnemyMaxHitPoints = 50;
-            const float EnemyBaseDefence = 100;
-            const float EnemyBaseAttack = 35;
-            float enemyCurrentHitPoints = EnemyMaxHitPoints;
+            const double EnemyMaxHitPoints = 50;
+            const double EnemyBaseDefence = 100;
+            const double EnemyBaseAttack = 35;
+            double enemyCurrentHitPoints = EnemyMaxHitPoints;
 
             //Other variables
             //Damage variable to store calculated damage of current attack
             //Formula for main characters damage is damage = BaseRizz - EnemyBaseDefence
             //Enemy attack damage values are absolute, main character does not reduce enemy damage
-            float damage = 0;
+            double damage = 0;
 
             //Amount of experience gained after winning a battle.
             //Only half of this value is gained if player loses the battle
-            float experienceGain = 250;
+            double experienceGain = 250;
 
             //Amount of experience points required to level up once
-            float levelUpValue = 100;
+            double levelUpValue = 100;
 
             //Damage multiplier for critical hits
-            float criticalHitMultiplier = 2.5f;
+            double criticalHitMultiplier = 2.5f;
 
             //Activity 2: Print character introduction and starting stats here
             Console.WriteLine("WELCOME TO DIARY OF A SIMPY KID!");
@@ -100,8 +100,8 @@
             Console.WriteLine(characterName + " feels more confident!");
 
             //Heal current confidence by 10% of max confidence
-            currentConfidence += MaxConfidence * 0.1f;
-            Console.WriteLine(characterName + " healed himself for " + (MaxConfidence * 0.1f) + " points");
+            currentConfidence += MaxConfidence * 0.1;
+            Console.WriteLine(characterName + " healed himself for " + (MaxConfidence * 0.1) + " points");
             Console.WriteLine(characterName + "'s current Confidence: " + currentConfidence);
 
             //Turn 4
