@@ -1,0 +1,15 @@
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\bin\Debug\net8.0\PE_StringFormatting_AshankRajendran.exe
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\bin\Debug\net8.0\PE_StringFormatting_AshankRajendran.deps.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\bin\Debug\net8.0\PE_StringFormatting_AshankRajendran.runtimeconfig.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\bin\Debug\net8.0\PE_StringFormatting_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\bin\Debug\net8.0\PE_StringFormatting_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\obj\Debug\net8.0\PE_StringFormatting_AshankRajendran.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\obj\Debug\net8.0\PE_StringFormatting_AshankRajendran.AssemblyInfoInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\obj\Debug\net8.0\PE_StringFormatting_AshankRajendran.AssemblyInfo.cs
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\obj\Debug\net8.0\PE_StringFormatting_AshankRajendran.csproj.CoreCompileInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\obj\Debug\net8.0\PE_StringFormatting_AshankRajendran.sourcelink.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\obj\Debug\net8.0\PE_StringFormatting_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\obj\Debug\net8.0\refint\PE_StringFormatting_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\obj\Debug\net8.0\PE_StringFormatting_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\obj\Debug\net8.0\PE_StringFormatting_AshankRajendran.genruntimeconfig.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_StringFormatting_AshankRajendran\PE_StringFormatting_AshankRajendran\obj\Debug\net8.0\ref\PE_StringFormatting_AshankRajendran.dll
