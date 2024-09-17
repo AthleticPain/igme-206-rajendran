@@ -1,0 +1,15 @@
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\bin\Debug\net8.0\PE_InputAndStrings_AshankRajendran.exe
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\bin\Debug\net8.0\PE_InputAndStrings_AshankRajendran.deps.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\bin\Debug\net8.0\PE_InputAndStrings_AshankRajendran.runtimeconfig.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\bin\Debug\net8.0\PE_InputAndStrings_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\bin\Debug\net8.0\PE_InputAndStrings_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\obj\Debug\net8.0\PE_InputAndStrings_AshankRajendran.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\obj\Debug\net8.0\PE_InputAndStrings_AshankRajendran.AssemblyInfoInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\obj\Debug\net8.0\PE_InputAndStrings_AshankRajendran.AssemblyInfo.cs
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\obj\Debug\net8.0\PE_InputAndStrings_AshankRajendran.csproj.CoreCompileInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\obj\Debug\net8.0\PE_InputAndStrings_AshankRajendran.sourcelink.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\obj\Debug\net8.0\PE_InputAndStrings_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\obj\Debug\net8.0\refint\PE_InputAndStrings_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\obj\Debug\net8.0\PE_InputAndStrings_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\obj\Debug\net8.0\PE_InputAndStrings_AshankRajendran.genruntimeconfig.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_InputAndStrings_AshankRajendran\PE_InputAndStrings_AshankRajendran\obj\Debug\net8.0\ref\PE_InputAndStrings_AshankRajendran.dll
