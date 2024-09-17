@@ -1,0 +1,15 @@
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\obj\Debug\net8.0\WhileLoopDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\obj\Debug\net8.0\WhileLoopDemo.AssemblyInfoInputs.cache
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\obj\Debug\net8.0\WhileLoopDemo.AssemblyInfo.cs
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\obj\Debug\net8.0\WhileLoopDemo.csproj.CoreCompileInputs.cache
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\obj\Debug\net8.0\WhileLoopDemo.sourcelink.json
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\bin\Debug\net8.0\WhileLoopDemo.exe
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\bin\Debug\net8.0\WhileLoopDemo.deps.json
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\bin\Debug\net8.0\WhileLoopDemo.runtimeconfig.json
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\bin\Debug\net8.0\WhileLoopDemo.dll
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\bin\Debug\net8.0\WhileLoopDemo.pdb
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\obj\Debug\net8.0\WhileLoopDemo.dll
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\obj\Debug\net8.0\refint\WhileLoopDemo.dll
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\obj\Debug\net8.0\WhileLoopDemo.pdb
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\obj\Debug\net8.0\WhileLoopDemo.genruntimeconfig.cache
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\WhileLoopDemo\WhileLoopDemo\obj\Debug\net8.0\ref\WhileLoopDemo.dll

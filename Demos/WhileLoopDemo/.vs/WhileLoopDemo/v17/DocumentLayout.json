@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\WhileLoopDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F794557-28B6-4958-BB7A-82A3A771F9EF}|WhileLoopDemo\\WhileLoopDemo.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\demos\\whileloopdemo\\whileloopdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F794557-28B6-4958-BB7A-82A3A771F9EF}|WhileLoopDemo\\WhileLoopDemo.csproj|solutionrelative:whileloopdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\WhileLoopDemo\\WhileLoopDemo\\Program.cs",
+              "RelativeDocumentMoniker": "WhileLoopDemo\\Program.cs",
+              "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\WhileLoopDemo\\WhileLoopDemo\\Program.cs",
+              "RelativeToolTip": "WhileLoopDemo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T20:22:39.455Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
