@@ -1,0 +1,15 @@
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\bin\Debug\net8.0\PE_Loops_AshankRajendran.exe
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\bin\Debug\net8.0\PE_Loops_AshankRajendran.deps.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\bin\Debug\net8.0\PE_Loops_AshankRajendran.runtimeconfig.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\bin\Debug\net8.0\PE_Loops_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\bin\Debug\net8.0\PE_Loops_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\obj\Debug\net8.0\PE_Loops_AshankRajendran.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\obj\Debug\net8.0\PE_Loops_AshankRajendran.AssemblyInfoInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\obj\Debug\net8.0\PE_Loops_AshankRajendran.AssemblyInfo.cs
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\obj\Debug\net8.0\PE_Loops_AshankRajendran.csproj.CoreCompileInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\obj\Debug\net8.0\PE_Loops_AshankRajendran.sourcelink.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\obj\Debug\net8.0\PE_Loops_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\obj\Debug\net8.0\refint\PE_Loops_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\obj\Debug\net8.0\PE_Loops_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\obj\Debug\net8.0\PE_Loops_AshankRajendran.genruntimeconfig.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Loops_AshankRajendran\PE_Loops_AshankRajendran\obj\Debug\net8.0\ref\PE_Loops_AshankRajendran.dll

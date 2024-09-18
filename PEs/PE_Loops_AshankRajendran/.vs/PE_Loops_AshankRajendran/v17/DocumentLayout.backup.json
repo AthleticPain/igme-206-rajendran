@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_Loops_AshankRajendran\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89C2216C-8104-4989-9084-B93F41F5D470}|PE_Loops_AshankRajendran\\PE_Loops_AshankRajendran.csproj|c:\\users\\ashan\\documents\\github\\igme-206-rajendran\\pes\\pe_loops_ashankrajendran\\pe_loops_ashankrajendran\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89C2216C-8104-4989-9084-B93F41F5D470}|PE_Loops_AshankRajendran\\PE_Loops_AshankRajendran.csproj|solutionrelative:pe_loops_ashankrajendran\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_Loops_AshankRajendran\\PE_Loops_AshankRajendran\\Program.cs",
+              "RelativeDocumentMoniker": "PE_Loops_AshankRajendran\\Program.cs",
+              "ToolTip": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_Loops_AshankRajendran\\PE_Loops_AshankRajendran\\Program.cs",
+              "RelativeToolTip": "PE_Loops_AshankRajendran\\Program.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAkwEAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T23:22:07.366Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
