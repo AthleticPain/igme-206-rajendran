@@ -1,0 +1,15 @@
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\bin\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.exe
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\bin\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.deps.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\bin\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.runtimeconfig.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\bin\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\bin\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\obj\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\obj\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.AssemblyInfoInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\obj\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.AssemblyInfo.cs
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\obj\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.csproj.CoreCompileInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\obj\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.sourcelink.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\obj\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\obj\Debug\net8.0\refint\PE_IfsAndSwitches_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\obj\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\obj\Debug\net8.0\PE_IfsAndSwitches_AshankRajendran.genruntimeconfig.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_IfsAndSwitches_AshankRajendran\PE_IfsAndSwitches_AshankRajendran\obj\Debug\net8.0\ref\PE_IfsAndSwitches_AshankRajendran.dll
