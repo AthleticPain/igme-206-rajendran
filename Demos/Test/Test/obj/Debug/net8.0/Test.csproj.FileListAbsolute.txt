@@ -1,0 +1,15 @@
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\bin\Debug\net8.0\Test.exe
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\bin\Debug\net8.0\Test.deps.json
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\bin\Debug\net8.0\Test.runtimeconfig.json
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\bin\Debug\net8.0\Test.dll
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\bin\Debug\net8.0\Test.pdb
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\obj\Debug\net8.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\obj\Debug\net8.0\Test.AssemblyInfoInputs.cache
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\obj\Debug\net8.0\Test.AssemblyInfo.cs
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\obj\Debug\net8.0\Test.csproj.CoreCompileInputs.cache
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\obj\Debug\net8.0\Test.sourcelink.json
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\obj\Debug\net8.0\Test.dll
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\obj\Debug\net8.0\refint\Test.dll
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\obj\Debug\net8.0\Test.pdb
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\obj\Debug\net8.0\Test.genruntimeconfig.cache
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Demos\Test\Test\obj\Debug\net8.0\ref\Test.dll
