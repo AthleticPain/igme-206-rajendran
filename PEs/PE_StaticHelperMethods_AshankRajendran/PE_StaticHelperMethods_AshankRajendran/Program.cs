@@ -1,4 +1,6 @@
-﻿namespace PE_StaticHelperMethods_AshankRajendran
+﻿using System.Runtime.CompilerServices;
+
+namespace PE_StaticHelperMethods_AshankRajendran
 {
     internal class Program
     {
@@ -46,7 +48,7 @@
         }
 
         /// <summary>
-        /// Input helper written by Ashank
+        /// Helper method written by Ashank
         /// Check if either number is a factor of the other and
         /// print an appropriate response for both cases
         /// </summary>
@@ -55,9 +57,78 @@
         /// <returns>void</returns>
         public static void CheckNumbers(int a, int b)
         {
+            //Flag to check if either number is a factor
+            //of the other
+            bool isFactor;
 
+            //Check which number is smaller and use that
+            //as the factor
+            //Use larger number as value
+            if(a < b)
+            {
+                isFactor = IsFactorOf(a, b);
+            }
+            else if (b < a)
+            {
+                isFactor = IsFactorOf(b, a);
+            }
+            else
+            {
+                isFactor = true;    //Equal numbers are always factors
+            }
+
+            if(isFactor)
+            {
+                Console.WriteLine("{0} and {1} are awesome numbers.", a, b);
+            }
+            else
+            {
+                Console.WriteLine("{0} and {1} are okay I guess.", a, b);
+            }
         }
 
+        /// <summary>
+        /// Helper method written by Ashank
+        /// Generate a secret integer code based on information
+        /// from name, a, and b values
+        /// </summary>
+        /// <param name="name">The name given by user</param>
+        /// <param name="a">The first integer number</param>
+        /// <param name="b">The second integer number</param>
+        /// <returns>void</returns>
+        public static int GetSecretCode(string name, int a, int b)
+        {
+            int code = (int)(Math.Sqrt(a) +
+                Math.Pow(a, b) -
+                name.Length - 
+                name[0]);
+
+            return code;
+        }
+
+        /// <summary>
+        /// Helper method written by Ashank
+        /// Print out a message that includes:
+        /// - the name in all uppercase
+        /// - the values of a and b
+        /// - the secret code generated from name, a, and b
+        /// </summary>
+        /// <param name="name">The name given by user</param>
+        /// <param name="a">The first integer number</param>
+        /// <param name="b">The second integer number</param>
+        /// <returns>void</returns>
+        public static void PrintAllInfo(string name, int a, int b)
+        {
+            Console.WriteLine
+                (
+                "Your name is {0},\n" +
+                "your favorite numbers are {1} and {2},\n" +
+                "and your secret code is {3}.",
+                name.ToUpper(),
+                a, b,
+                GetSecretCode(name, a, b)
+                );
+        }
 
         static void Main(string[] args)
         {
@@ -70,7 +141,10 @@
             // Get values for name, a, and b using GetPromptedInput and parsing if needed.
             // Fyi, lines that begin with // TODO: will appear in a VS task list for you!
             // https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list
-            // TODO: ADD YOUR USER INPUT CODE HERE
+
+            name = GetPromptedInput("What is your name?");
+            a = int.Parse(GetPromptedInput("Enter a whole number: "));
+            b = int.Parse(GetPromptedInput("Enter another whole number: "));
 
             // Reformat the name
             name = name[0].ToString().ToUpper() + name.Substring(1, name.Length - 1).ToLower();
@@ -89,17 +163,19 @@
             {
                 // Check numbers
                 case 1:
-                    // TODO: ADD YOUR CODE HERE
+                    CheckNumbers(a, b);
                     break;
 
                 // Get secret code
                 case 2:
-                    // TODO: ADD YOUR CODE HERE
+                    Console.WriteLine("Your secret code is {0}.",
+                        GetSecretCode(name, a, b));
                     break;
 
                 // Output all info
                 case 3:
-                    // TODO: ADD YOUR CODE HERE
+                    PrintAllInfo(name, a, b);
+                    CheckNumbers(a, b);
                     break;
 
                 // Say goodbye for invalid choices

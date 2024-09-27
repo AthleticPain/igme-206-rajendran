@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_StaticHelperMethods_AshankRajendran")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f34747255cc78da51fdf1213ccd5dbf0b9c6bc0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d65f5a36423d6e975fcb232284a5e0abb30bdf32")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_StaticHelperMethods_AshankRajendran")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_StaticHelperMethods_AshankRajendran")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
