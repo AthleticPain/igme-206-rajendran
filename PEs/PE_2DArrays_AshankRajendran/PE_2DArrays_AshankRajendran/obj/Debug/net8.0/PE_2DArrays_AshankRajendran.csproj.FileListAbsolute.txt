@@ -1,0 +1,15 @@
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\bin\Debug\net8.0\PE_2DArrays_AshankRajendran.exe
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\bin\Debug\net8.0\PE_2DArrays_AshankRajendran.deps.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\bin\Debug\net8.0\PE_2DArrays_AshankRajendran.runtimeconfig.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\bin\Debug\net8.0\PE_2DArrays_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\bin\Debug\net8.0\PE_2DArrays_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\obj\Debug\net8.0\PE_2DArrays_AshankRajendran.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\obj\Debug\net8.0\PE_2DArrays_AshankRajendran.AssemblyInfoInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\obj\Debug\net8.0\PE_2DArrays_AshankRajendran.AssemblyInfo.cs
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\obj\Debug\net8.0\PE_2DArrays_AshankRajendran.csproj.CoreCompileInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\obj\Debug\net8.0\PE_2DArrays_AshankRajendran.sourcelink.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\obj\Debug\net8.0\PE_2DArrays_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\obj\Debug\net8.0\refint\PE_2DArrays_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\obj\Debug\net8.0\PE_2DArrays_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\obj\Debug\net8.0\PE_2DArrays_AshankRajendran.genruntimeconfig.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_2DArrays_AshankRajendran\PE_2DArrays_AshankRajendran\obj\Debug\net8.0\ref\PE_2DArrays_AshankRajendran.dll

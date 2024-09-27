@@ -54,7 +54,6 @@ namespace PE_StaticHelperMethods_AshankRajendran
         /// </summary>
         /// <param name="a">The first integer number</param>
         /// <param name="b">The second integer number</param>
-        /// <returns>void</returns>
         public static void CheckNumbers(int a, int b)
         {
             //Flag to check if either number is a factor
@@ -95,15 +94,15 @@ namespace PE_StaticHelperMethods_AshankRajendran
         /// <param name="name">The name given by user</param>
         /// <param name="a">The first integer number</param>
         /// <param name="b">The second integer number</param>
-        /// <returns>void</returns>
+        /// <returns>integer secret code</returns>
         public static int GetSecretCode(string name, int a, int b)
         {
-            int code = (int)(Math.Sqrt(a) +
+            int secretCode = (int)(Math.Sqrt(a) +
                 Math.Pow(a, b) -
                 name.Length - 
                 name[0]);
 
-            return code;
+            return secretCode;
         }
 
         /// <summary>
@@ -116,7 +115,6 @@ namespace PE_StaticHelperMethods_AshankRajendran
         /// <param name="name">The name given by user</param>
         /// <param name="a">The first integer number</param>
         /// <param name="b">The second integer number</param>
-        /// <returns>void</returns>
         public static void PrintAllInfo(string name, int a, int b)
         {
             Console.WriteLine
