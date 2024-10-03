@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_Properties_AshankRajendran")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0271ea44fb42e28befc775939dfe1fb5f3ac61c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0b7bfdeabdc6b3b7426cdab682e23bb2bd64f87")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_Properties_AshankRajendran")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_Properties_AshankRajendran")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
