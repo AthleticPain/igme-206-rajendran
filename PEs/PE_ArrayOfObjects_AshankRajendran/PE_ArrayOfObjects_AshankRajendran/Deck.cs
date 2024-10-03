@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PE_ArrayOfObjects_AshankRajendran
 {
     internal class Deck
     {
-        Random rng;
-        Card[] cards; //Array of Cards
+        private Random rng;
+        private Card[] cards; //Array of Cards
 
         //Method to print entire deck of cards to screen
         public void Print()

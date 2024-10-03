@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_ArrayOfObjects_AshankRajendran")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adeaadaa09ca290399cd7643034120b5c004e798")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0271ea44fb42e28befc775939dfe1fb5f3ac61c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_ArrayOfObjects_AshankRajendran")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_ArrayOfObjects_AshankRajendran")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PE_ArrayOfObjects_AshankRajendran
 {
     internal class Card
     {
-        int value;
-        string suit;
+        private int value;
+        private string suit;
 
         //Method to print the card value and suit
         public void Print()

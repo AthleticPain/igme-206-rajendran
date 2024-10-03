@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_Magic8Ball_AshankRajendran")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27dc596d17e61f0f66e578e9c12a7e215a4d7479")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0271ea44fb42e28befc775939dfe1fb5f3ac61c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_Magic8Ball_AshankRajendran")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_Magic8Ball_AshankRajendran")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,10 +5,10 @@ namespace PE_Magic8Ball_AshankRajendran
     internal class MagicEightBall
     {
         //Declare all variables for this scope
-        string owner;
-        int timesShaken;
-        string[] potentialResponses;
-        Random randomObject;
+        private string owner;
+        private int timesShaken;
+        private string[] potentialResponses;
+        private Random randomObject;
 
         //Method to return random response from potentialResponses
         //Also increments timesShaken
