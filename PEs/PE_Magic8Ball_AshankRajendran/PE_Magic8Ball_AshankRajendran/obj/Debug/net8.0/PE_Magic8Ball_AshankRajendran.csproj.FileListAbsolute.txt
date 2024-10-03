@@ -1,0 +1,15 @@
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\bin\Debug\net8.0\PE_Magic8Ball_AshankRajendran.exe
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\bin\Debug\net8.0\PE_Magic8Ball_AshankRajendran.deps.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\bin\Debug\net8.0\PE_Magic8Ball_AshankRajendran.runtimeconfig.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\bin\Debug\net8.0\PE_Magic8Ball_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\bin\Debug\net8.0\PE_Magic8Ball_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\obj\Debug\net8.0\PE_Magic8Ball_AshankRajendran.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\obj\Debug\net8.0\PE_Magic8Ball_AshankRajendran.AssemblyInfoInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\obj\Debug\net8.0\PE_Magic8Ball_AshankRajendran.AssemblyInfo.cs
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\obj\Debug\net8.0\PE_Magic8Ball_AshankRajendran.csproj.CoreCompileInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\obj\Debug\net8.0\PE_Magic8Ball_AshankRajendran.sourcelink.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\obj\Debug\net8.0\PE_Magic8Ball_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\obj\Debug\net8.0\refint\PE_Magic8Ball_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\obj\Debug\net8.0\PE_Magic8Ball_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\obj\Debug\net8.0\PE_Magic8Ball_AshankRajendran.genruntimeconfig.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_Magic8Ball_AshankRajendran\PE_Magic8Ball_AshankRajendran\obj\Debug\net8.0\ref\PE_Magic8Ball_AshankRajendran.dll
