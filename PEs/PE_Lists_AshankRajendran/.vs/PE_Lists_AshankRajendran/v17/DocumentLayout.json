@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_Lists_AshankRajendran\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{550F5663-6C42-42BD-8992-3897BB7E46E3}|PE_Lists_AshankRajendran\\PE_Lists_AshankRajendran.csproj|c:\\users\\ashan\\documents\\github\\igme-206-rajendran\\pes\\pe_lists_ashankrajendran\\pe_lists_ashankrajendran\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{550F5663-6C42-42BD-8992-3897BB7E46E3}|PE_Lists_AshankRajendran\\PE_Lists_AshankRajendran.csproj|solutionrelative:pe_lists_ashankrajendran\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{550F5663-6C42-42BD-8992-3897BB7E46E3}|PE_Lists_AshankRajendran\\PE_Lists_AshankRajendran.csproj|c:\\users\\ashan\\documents\\github\\igme-206-rajendran\\pes\\pe_lists_ashankrajendran\\pe_lists_ashankrajendran\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{550F5663-6C42-42BD-8992-3897BB7E46E3}|PE_Lists_AshankRajendran\\PE_Lists_AshankRajendran.csproj|solutionrelative:pe_lists_ashankrajendran\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_Lists_AshankRajendran\\PE_Lists_AshankRajendran\\Player.cs",
+              "RelativeDocumentMoniker": "PE_Lists_AshankRajendran\\Player.cs",
+              "ToolTip": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_Lists_AshankRajendran\\PE_Lists_AshankRajendran\\Player.cs",
+              "RelativeToolTip": "PE_Lists_AshankRajendran\\Player.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAWwC0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T00:01:19.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_Lists_AshankRajendran\\PE_Lists_AshankRajendran\\Program.cs",
+              "RelativeDocumentMoniker": "PE_Lists_AshankRajendran\\Program.cs",
+              "ToolTip": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_Lists_AshankRajendran\\PE_Lists_AshankRajendran\\Program.cs",
+              "RelativeToolTip": "PE_Lists_AshankRajendran\\Program.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAWwFEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T00:00:56.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
