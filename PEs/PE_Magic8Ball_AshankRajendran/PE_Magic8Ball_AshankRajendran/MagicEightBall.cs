@@ -1,7 +1,10 @@
 ﻿using System;
 
 namespace PE_Magic8Ball_AshankRajendran
-{
+{    
+    /// <summary>
+     /// Class to hold responses and methods that simulate a magic 8 ball
+     /// </summary>
     internal class MagicEightBall
     {
         //Declare all variables for this scope
@@ -10,8 +13,11 @@ namespace PE_Magic8Ball_AshankRajendran
         private string[] potentialResponses;
         private Random randomObject;
 
-        //Method to return random response from potentialResponses
-        //Also increments timesShaken
+
+        /// <summary>
+        /// Method to return random response from potentialResponses.
+        /// </summary>
+        /// <returns>A random eight ball response in string format</returns>
         public string ShakeBall()
         {
             timesShaken++;
@@ -21,8 +27,11 @@ namespace PE_Magic8Ball_AshankRajendran
             return potentialResponses[randomIndex];
         }
 
-        //Method to return a statement about the number of times
-        //the eight ball has been shaken
+        /// <summary>
+        ///Method to get a statement about the number of times
+        ///the eight ball has been shaken
+        /// </summary>
+        /// <returns>A statement of the number of times the eight ball has been shaken in string format</returns>
         public string Report()
         {
             if(timesShaken == 0)
@@ -45,7 +54,10 @@ namespace PE_Magic8Ball_AshankRajendran
 
         }
 
-        //Constructor to initialize instance of this class
+
+        ///<summary>
+        ///Constructor to initialize instance of this class
+        ///</summary>
         public MagicEightBall(string ownerName) 
         { 
             this.owner = ownerName;

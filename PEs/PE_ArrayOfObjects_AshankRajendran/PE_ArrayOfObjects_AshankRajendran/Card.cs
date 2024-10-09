@@ -2,12 +2,17 @@
 
 namespace PE_ArrayOfObjects_AshankRajendran
 {
+    /// <summary>
+    /// Class that stores the suit and value of a card
+    /// </summary>
     internal class Card
     {
         private int value;
         private string suit;
 
-        //Method to print the card value and suit
+        /// <summary>
+        ///Method to print the card value and suit
+        /// </summary>
         public void Print()
         {
             string cardName = "";
@@ -43,8 +48,11 @@ namespace PE_ArrayOfObjects_AshankRajendran
             Console.WriteLine(cardName + " of " + suit);
         }
 
-        //Constructor for this class
-        //initializes value and suit
+        /// <summary>
+        /// Constructor for this class.
+        /// </summary>
+        /// <param name="value">The number value of this card in int format</param>
+        /// <param name="suit">The suit of this card in string format</param>
         public Card(int value, string suit)
         {
             this.value = value;

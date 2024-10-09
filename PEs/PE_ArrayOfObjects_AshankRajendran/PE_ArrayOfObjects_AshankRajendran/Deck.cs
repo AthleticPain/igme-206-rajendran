@@ -2,12 +2,18 @@
 
 namespace PE_ArrayOfObjects_AshankRajendran
 {
+    /// <summary>
+    /// Class that stores an array of card gameobject
+    /// </summary>
     internal class Deck
     {
         private Random rng;
         private Card[] cards; //Array of Cards
 
-        //Method to print entire deck of cards to screen
+
+        /// <summary>
+        /// Method to print entire deck of cards to screen
+        /// </summary>
         public void Print()
         {
             Console.WriteLine("Your deck:");
@@ -18,7 +24,9 @@ namespace PE_ArrayOfObjects_AshankRajendran
             }
         }
 
-        //Method to deal a given number of cards randomly
+        /// <summary>
+        ///Method to deal a given number of cards randomly
+        /// </summary>
         public void Deal(int amount)
         {
             Console.WriteLine("Your hand:");
@@ -32,7 +40,9 @@ namespace PE_ArrayOfObjects_AshankRajendran
             }
         }
 
-        //Constructor for this class
+        /// <summary>
+        /// Constructor for this class
+        /// </summary>
         public Deck()
         {
             //Initialize instance of Random class

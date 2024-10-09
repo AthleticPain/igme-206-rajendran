@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "CDHUxRNS4tg=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\Homeworks\\HW4_Arena\\HW4_Arena.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ashan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\ashan\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\ashan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\ashan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}

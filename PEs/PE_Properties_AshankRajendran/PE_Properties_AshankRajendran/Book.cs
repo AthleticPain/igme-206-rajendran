@@ -1,9 +1,11 @@
 ﻿namespace PE_Properties_AshankRajendran
 {
+    /// <summary>
+    /// Class that stores the details of a book
+    /// </summary>
     internal class Book
     {
         //Declare all variables here
-
         private string title;
         private string author;
         private int numberOfPages;
@@ -78,7 +80,9 @@
             }
         }
 
-        //Method to print all of this book's information
+        /// <summary>
+        ///Method to print all of this book's information
+        /// </summary>
         public void Print()
         {
             Console.WriteLine("{0} by {1} has {2} pages." +
@@ -89,8 +93,13 @@
                 owner,
                 totalTimesRead);
         }
-
-        //Constructor for this class
+        /// <summary>
+        /// Constructor for Book class
+        /// </summary>
+        /// <param name="title">The title of the book</param>
+        /// <param name="author">The author of the book</param>
+        /// <param name="numberOfPages">The number of pages in the book</param>
+        /// <param name="owner">The current owner of this book</param>
         public Book(string title, string author, int numberOfPages, string owner)
         {
             this.title = title;
