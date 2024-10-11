@@ -1,0 +1,15 @@
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\bin\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.exe
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\bin\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.deps.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\bin\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.runtimeconfig.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\bin\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\bin\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\obj\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\obj\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.AssemblyInfoInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\obj\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.AssemblyInfo.cs
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\obj\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.csproj.CoreCompileInputs.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\obj\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.sourcelink.json
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\obj\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\obj\Debug\net8.0\refint\PE_FileIOwithClasses_AshankRajendran.dll
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\obj\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.pdb
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\obj\Debug\net8.0\PE_FileIOwithClasses_AshankRajendran.genruntimeconfig.cache
+C:\Users\ashan\Documents\GitHub\igme-206-rajendran\PEs\PE_FileIOwithClasses_AshankRajendran\PE_FileIOwithClasses_AshankRajendran\obj\Debug\net8.0\ref\PE_FileIOwithClasses_AshankRajendran.dll
