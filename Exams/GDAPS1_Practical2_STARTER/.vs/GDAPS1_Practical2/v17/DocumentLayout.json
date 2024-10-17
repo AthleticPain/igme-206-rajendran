@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\exams\\gdaps1_practical2_starter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\exams\\gdaps1_practical2_starter\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|solutionrelative:weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\exams\\gdaps1_practical2_starter\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|solutionrelative:inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Weapon.cs",
+              "RelativeDocumentMoniker": "Weapon.cs",
+              "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Weapon.cs",
+              "RelativeToolTip": "Weapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:36:36.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:36:35.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Inventory.cs",
+              "RelativeDocumentMoniker": "Inventory.cs",
+              "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Inventory.cs",
+              "RelativeToolTip": "Inventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:36:33.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

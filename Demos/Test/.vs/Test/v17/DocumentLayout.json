@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{57F7F3FA-667B-4183-BF6D-0D51384490AB}|Test\\Test.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\demos\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57F7F3FA-667B-4183-BF6D-0D51384490AB}|Test\\Test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F7F3FA-667B-4183-BF6D-0D51384490AB}|Test\\Test.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\demos\\test\\test\\filename.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{57F7F3FA-667B-4183-BF6D-0D51384490AB}|Test\\Test.csproj|solutionrelative:test\\filename.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "filename.txt",
+              "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\Test\\Test\\filename.txt",
+              "RelativeDocumentMoniker": "Test\\filename.txt",
+              "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\Test\\Test\\filename.txt",
+              "RelativeToolTip": "Test\\filename.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-08T20:03:15.877Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "Test\\Program.cs",
               "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\Test\\Test\\Program.cs",
               "RelativeToolTip": "Test\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T20:03:47.014Z",
               "EditorCaption": ""
