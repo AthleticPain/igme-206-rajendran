@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\exams\\gdaps1_practical2_starter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\exams\\gdaps1_practical2_starter\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|solutionrelative:food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\exams\\gdaps1_practical2_starter\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|solutionrelative:weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\exams\\gdaps1_practical2_starter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\exams\\gdaps1_practical2_starter\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|solutionrelative:inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\exams\\gdaps1_practical2_starter\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3A010A-519E-4F84-841B-7A098E91EC8D}|GDAPS1_Practical2.csproj|solutionrelative:item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Food.cs",
+              "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Food.cs",
+              "RelativeDocumentMoniker": "Food.cs",
+              "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Food.cs",
+              "RelativeToolTip": "Food.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:50:47.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Item.cs",
+              "RelativeDocumentMoniker": "Item.cs",
+              "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Item.cs",
+              "RelativeToolTip": "Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:38:37.418Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,33 +66,33 @@
               "RelativeDocumentMoniker": "Weapon.cs",
               "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Weapon.cs",
               "RelativeToolTip": "Weapon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T19:36:36.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAWAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAhwCIAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T19:36:35.627Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Inventory.cs",
               "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Inventory.cs",
               "RelativeDocumentMoniker": "Inventory.cs",
               "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Exams\\GDAPS1_Practical2_STARTER\\Inventory.cs",
               "RelativeToolTip": "Inventory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T19:36:33.038Z",
               "EditorCaption": ""

@@ -1,0 +1,15 @@
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\bin\Debug\net6.0\GDAPS1_Practical2.exe
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\bin\Debug\net6.0\GDAPS1_Practical2.deps.json
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\bin\Debug\net6.0\GDAPS1_Practical2.runtimeconfig.json
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\bin\Debug\net6.0\GDAPS1_Practical2.dll
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\bin\Debug\net6.0\GDAPS1_Practical2.pdb
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\obj\Debug\net6.0\GDAPS1_Practical2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\obj\Debug\net6.0\GDAPS1_Practical2.AssemblyInfoInputs.cache
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\obj\Debug\net6.0\GDAPS1_Practical2.AssemblyInfo.cs
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\obj\Debug\net6.0\GDAPS1_Practical2.csproj.CoreCompileInputs.cache
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\obj\Debug\net6.0\GDAPS1_Practical2.sourcelink.json
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\obj\Debug\net6.0\GDAPS1_Practical2.dll
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\obj\Debug\net6.0\refint\GDAPS1_Practical2.dll
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\obj\Debug\net6.0\GDAPS1_Practical2.pdb
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\obj\Debug\net6.0\GDAPS1_Practical2.genruntimeconfig.cache
+D:\Profiles\ar9666\Documents\igme206\igme-206-rajendran\Exams\GDAPS1_Practical2_STARTER\obj\Debug\net6.0\ref\GDAPS1_Practical2.dll

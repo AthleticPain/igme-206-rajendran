@@ -35,7 +35,7 @@ namespace GDAPS1_Practical2
         }
 
         /// <summary>
-        /// All items can proide their name and weight as a 
+        /// All items can provide their name and weight as a 
         /// well formatted string.
         /// </summary>
         /// <returns>A string containing the item's name and weight</returns>
