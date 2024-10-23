@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\DynamicMenus\\DynamicMenus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\demos\\dynamicmenus\\dynamicmenus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\demos\\dynamicmenus\\dynamicmenus\\gettimeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:gettimeitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\demos\\dynamicmenus\\dynamicmenus\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|d:\\profiles\\ar9666\\documents\\igme206\\igme-206-rajendran\\demos\\dynamicmenus\\dynamicmenus\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE8981D6-C0FC-48CF-9870-52520F35B49E}|DynamicMenus.csproj|solutionrelative:menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetTimeItem.cs",
+              "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\DynamicMenus\\DynamicMenus\\GetTimeItem.cs",
+              "RelativeDocumentMoniker": "GetTimeItem.cs",
+              "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\DynamicMenus\\DynamicMenus\\GetTimeItem.cs",
+              "RelativeToolTip": "GetTimeItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:43:15.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameItem.cs",
+              "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\DynamicMenus\\DynamicMenus\\GameItem.cs",
+              "RelativeDocumentMoniker": "GameItem.cs",
+              "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\DynamicMenus\\DynamicMenus\\GameItem.cs",
+              "RelativeToolTip": "GameItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:43:15.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\DynamicMenus\\DynamicMenus\\MenuItem.cs",
+              "RelativeDocumentMoniker": "MenuItem.cs",
+              "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\DynamicMenus\\DynamicMenus\\MenuItem.cs",
+              "RelativeToolTip": "MenuItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:43:15.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\DynamicMenus\\DynamicMenus\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Profiles\\ar9666\\Documents\\igme206\\igme-206-rajendran\\Demos\\DynamicMenus\\DynamicMenus\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T19:43:15.361Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
