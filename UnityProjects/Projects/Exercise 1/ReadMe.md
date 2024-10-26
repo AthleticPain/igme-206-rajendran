@@ -5,4 +5,4 @@
 ## Date: 25/10/2024
 ## Screenshots:
 
-![plot](igme-206-rajendran/UnityProjects/Screenshots/Exercise 1/Snowman.png)
+![alt text](https://github.com/AthleticPain/igme-206-rajendran/blob/main/UnityProjects/Screenshots/Exercise%201/Snowman.png)
