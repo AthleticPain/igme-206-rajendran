@@ -68,8 +68,7 @@
         public void Load()
         {
 
-            if (players.Count > 0)
-            {
+            
                 players.Clear();
                 StreamReader inputStream = new StreamReader(filename);
 
@@ -100,8 +99,8 @@
                 {
                     inputStream.Close();
                 }
-            }
-            else
+            
+            if(players.Count > 0)
             {
                 Console.WriteLine("There is no player data to load.");
             }

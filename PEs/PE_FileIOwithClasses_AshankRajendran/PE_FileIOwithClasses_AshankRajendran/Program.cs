@@ -39,7 +39,7 @@
 
                         Console.Write("Player's health? ");
                         Console.ForegroundColor = ConsoleColor.Cyan;
-                        newPlayerHealth =int.Parse(Console.ReadLine().Trim());
+                        newPlayerHealth = int.Parse(Console.ReadLine().Trim());
                         Console.ForegroundColor = ConsoleColor.White;
 
                         playerManager.CreatePlayer(

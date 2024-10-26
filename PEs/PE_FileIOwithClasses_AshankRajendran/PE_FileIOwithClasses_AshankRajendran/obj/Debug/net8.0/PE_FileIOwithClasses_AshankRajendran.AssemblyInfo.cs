@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PE_FileIOwithClasses_AshankRajendran")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e260fa20fb9a796ab1a78394a1ba94d5f76dd25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de8823b840947fa27bc0b90312ab7134c50b9c34")]
 [assembly: System.Reflection.AssemblyProductAttribute("PE_FileIOwithClasses_AshankRajendran")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PE_FileIOwithClasses_AshankRajendran")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

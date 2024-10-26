@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{BF784647-0D78-4ED5-B50D-DA2E91D9CEE1}|PE_FileIOwithClasses_AshankRajendran\\PE_FileIOwithClasses_AshankRajendran.csproj|solutionrelative:pe_fileiowithclasses_ashankrajendran\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BF784647-0D78-4ED5-B50D-DA2E91D9CEE1}|PE_FileIOwithClasses_AshankRajendran\\PE_FileIOwithClasses_AshankRajendran.csproj|c:\\users\\ashan\\documents\\github\\igme-206-rajendran\\pes\\pe_fileiowithclasses_ashankrajendran\\pe_fileiowithclasses_ashankrajendran\\players.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BF784647-0D78-4ED5-B50D-DA2E91D9CEE1}|PE_FileIOwithClasses_AshankRajendran\\PE_FileIOwithClasses_AshankRajendran.csproj|solutionrelative:pe_fileiowithclasses_ashankrajendran\\players.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF784647-0D78-4ED5-B50D-DA2E91D9CEE1}|PE_FileIOwithClasses_AshankRajendran\\PE_FileIOwithClasses_AshankRajendran.csproj|c:\\users\\ashan\\documents\\github\\igme-206-rajendran\\pes\\pe_fileiowithclasses_ashankrajendran\\pe_fileiowithclasses_ashankrajendran\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF784647-0D78-4ED5-B50D-DA2E91D9CEE1}|PE_FileIOwithClasses_AshankRajendran\\PE_FileIOwithClasses_AshankRajendran.csproj|solutionrelative:pe_fileiowithclasses_ashankrajendran\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "players.txt",
+              "DocumentMoniker": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_FileIOwithClasses_AshankRajendran\\PE_FileIOwithClasses_AshankRajendran\\players.txt",
+              "RelativeDocumentMoniker": "PE_FileIOwithClasses_AshankRajendran\\players.txt",
+              "ToolTip": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_FileIOwithClasses_AshankRajendran\\PE_FileIOwithClasses_AshankRajendran\\players.txt",
+              "RelativeToolTip": "PE_FileIOwithClasses_AshankRajendran\\players.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-24T02:18:56.914Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,14 +49,14 @@
               "RelativeDocumentMoniker": "PE_FileIOwithClasses_AshankRajendran\\PlayerManager.cs",
               "ToolTip": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_FileIOwithClasses_AshankRajendran\\PE_FileIOwithClasses_AshankRajendran\\PlayerManager.cs",
               "RelativeToolTip": "PE_FileIOwithClasses_AshankRajendran\\PlayerManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowGUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T23:16:36.551Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_FileIOwithClasses_AshankRajendran\\PE_FileIOwithClasses_AshankRajendran\\Player.cs",
               "RelativeDocumentMoniker": "PE_FileIOwithClasses_AshankRajendran\\Player.cs",
@@ -47,8 +64,7 @@
               "RelativeToolTip": "PE_FileIOwithClasses_AshankRajendran\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:07:22.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T23:07:22.595Z"
             },
             {
               "$type": "Document",
@@ -58,7 +74,7 @@
               "RelativeDocumentMoniker": "PE_FileIOwithClasses_AshankRajendran\\Program.cs",
               "ToolTip": "C:\\Users\\ashan\\Documents\\GitHub\\igme-206-rajendran\\PEs\\PE_FileIOwithClasses_AshankRajendran\\PE_FileIOwithClasses_AshankRajendran\\Program.cs",
               "RelativeToolTip": "PE_FileIOwithClasses_AshankRajendran\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAQwCkAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowDUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T23:03:44.687Z",
               "EditorCaption": ""

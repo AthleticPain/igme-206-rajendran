@@ -49,7 +49,7 @@
 
             set
             {
-                //Only set value if string is not empty ot null
+                //Only set value if string is not empty or null
                 if (value != "" && value != null)
                 {
                     owner = value;
