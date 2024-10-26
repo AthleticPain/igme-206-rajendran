@@ -5,4 +5,4 @@
 ## Date: 25/10/2024
 ## Screenshots:
 
-![plot](./directory_1/directory_2/.../directory_n/plot.png)
+![plot](UnityProjects/Screenshots/Exercise 1/Snowman.png)
