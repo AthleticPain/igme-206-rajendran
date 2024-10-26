@@ -5,4 +5,4 @@
 ## Date: 25/10/2024
 ## Screenshots:
 
-![plot](UnityProjects/Screenshots/Exercise 1/Snowman.png)
+![plot](igme-206-rajendran/UnityProjects/Screenshots/Exercise 1/Snowman.png)
