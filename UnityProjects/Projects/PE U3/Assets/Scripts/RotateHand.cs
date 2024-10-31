@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class RotateHand : MonoBehaviour
 {
-    private float turnAmount = 6; //6 degrees per second
+    //turn hand at a rate of -6 degrees per second (clockwise rotation)
+    private float turnAmount = -6; 
     [SerializeField] bool useDeltaTime;
 
     private void Update()
