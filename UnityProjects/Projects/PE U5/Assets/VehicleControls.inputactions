@@ -13,6 +13,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Change Collision Mode",
+                    "type": "Button",
+                    "id": "118dba7d-eeae-4088-86e9-0ac1506b0586",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -125,6 +134,17 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "de105170-75b5-4d9e-818f-995de3a37dce",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Change Collision Mode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
