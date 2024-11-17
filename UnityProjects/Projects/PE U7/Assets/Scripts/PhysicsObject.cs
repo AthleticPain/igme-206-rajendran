@@ -22,9 +22,12 @@ public class PhysicsObject : MonoBehaviour
 
     [SerializeField] SpriteRenderer spriteRenderer;
 
+    //Radius of the sprite, used in wall collision detection
     [SerializeField] float radius;
 
+    //Flag to show if monster is on a floor or wall, used for friction
     public bool isInContactWithSurface;
+
     [SerializeField] float coefficientOfFriction = 0.1f;
 
     Camera cam;
@@ -60,6 +63,7 @@ public class PhysicsObject : MonoBehaviour
     private void Start()
     {
         cam = Camera.main;
+
         if (!spriteRenderer)
         {
             spriteRenderer = GetComponent<SpriteRenderer>();
@@ -85,6 +89,7 @@ public class PhysicsObject : MonoBehaviour
 
         Velocity += acceleration * Time.deltaTime;
         Position += Velocity * Time.deltaTime;
+        direction = Velocity.normalized;
 
         Bounce();
 
@@ -102,34 +107,36 @@ public class PhysicsObject : MonoBehaviour
 
     private void ApplyFriction()
     {
-        if(isFrictionActive && isInContactWithSurface)
+        isInContactWithSurface = IsBodyInContactWithSurface();
+
+        if (isFrictionActive && isInContactWithSurface)
         {
             Vector3 frictionForce = Velocity * -1;
             frictionForce.Normalize();
             frictionForce = frictionForce * coefficientOfFriction;
 
-            Debug.Log("Applying Friction");
             ApplyForce(frictionForce);
         }
     }
 
     private void Bounce()
     {
+        //If object is outside x bounds, reverse the x velocity
         if (transform.position.x - radius < lowerBoundaries.x || transform.position.x + radius > upperBoundaries.x )
 
         {
             Velocity = new Vector3(Velocity.x * - 0.7f, Velocity.y, Velocity.z);
         }
 
+        //If object is outside of the y bounds, reverse the y velocity
         if(transform.position.y - radius < lowerBoundaries.y || transform.position.y + radius > upperBoundaries.y)
         {
             Velocity = new Vector3(Velocity.x, Velocity.y * -0.7f, Velocity.z);
-
         }
-
-        isInContactWithSurface = IsBodyInContactWithSurface();
     }
 
+    //Checks if an object is in contact with any of the boundaries
+    //Prevents object from sinking through the boundaries
     private bool IsBodyInContactWithSurface()
     {
         bool isInContact = false;
