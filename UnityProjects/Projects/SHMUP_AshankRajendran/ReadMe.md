@@ -32,14 +32,14 @@ A shoot 'em up where you control a spaceship.
 
 -   Implemented:
     - Infinite scrolling parallax background
-    - Parralax star field particle system
+    - Parallax star field particle system
     - Dynamic rocket trail for spaceships
     - Controller support
 
 -   Yet to be Implemented:
     - Black holes with active gravity fields
     - Dynamically destructible asteroids
-    - Wave based enemy spawing with set movement paths
+    - Wave-based enemy spawning with set movement paths
 
 ## Sources
 
