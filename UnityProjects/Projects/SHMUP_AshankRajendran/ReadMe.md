@@ -34,6 +34,7 @@ A shoot 'em up where you control a spaceship.
     - Infinite scrolling parallax background
     - Parralax star field particle system
     - Dynamic rocket trail for spaceships
+    - Controller support
 
 -   Yet to be Implemented:
     - Black holes with active gravity fields
