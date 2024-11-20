@@ -1,23 +1,51 @@
-  
-**Game Project**:  Project 1 - SHMUP
+# SHMUP
 
-**Creator**:  Ashank Rajendran
+### Student Info
 
-**Version**:   0.0
+-   Name: Ashank Rajendran
+-   Section: IGME 206
 
-**Date**: 11/05/2024
+## Game Design
 
-**New features**:
-2D Unity Project Template
+-   Camera Orientation: Top-down
+-   Camera Movement: Camera is static, background scrolls to give the illusion of constant movement
+-   Player Health: 
+-   End Condition: 
+-   Scoring: 
 
-﻿  
-**Fixes**:
-None
-﻿  
-**Improvements** *(of existing features)*:
-None
+### Game Description
 
-**Known Bugs**:
-None
+A shoot 'em up where you control a spaceship.
 
-﻿  
+### Controls
+
+-   Movement
+    -   Up: UpArrow or W
+    -   Down: DownArrow or S
+    -   Left: LeftArrow or A
+    -   Right: RightArrow or D
+    - Left Analog Stick for Controller
+
+-   Fire: 
+
+## Your Additions
+
+-   Implemented:
+    - Infinite scrolling parallax background
+    - Parralax star field particle system
+    - Dynamic rocket trail for spaceships
+
+-   Yet to be Implemented:
+    - Black holes with active gravity fields
+    - Dynamically destructible asteroids
+    - Wave based enemy spawing with set movement paths
+
+## Sources
+
+-   https://www.kenney.nl/assets
+
+## Known Issues
+
+
+### Requirements not completed
+
