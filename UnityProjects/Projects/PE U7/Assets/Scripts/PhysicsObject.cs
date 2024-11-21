@@ -15,7 +15,7 @@ public class PhysicsObject : MonoBehaviour
     [SerializeField] bool isGravityActive = true;
 
     [SerializeField] float gravityStrength = 10;
-    [SerializeField] float maxSpeed = 100;
+    [SerializeField] public float maxSpeed = 100;
 
     [SerializeField] Vector2 lowerBoundaries;
     [SerializeField] Vector2 upperBoundaries;
@@ -23,7 +23,7 @@ public class PhysicsObject : MonoBehaviour
     [SerializeField] SpriteRenderer spriteRenderer;
 
     //Radius of the sprite, used in wall collision detection
-    [SerializeField] float radius;
+    [SerializeField] public float radius;
 
     //Flag to show if monster is on a floor or wall, used for friction
     public bool isInContactWithSurface;
@@ -90,6 +90,8 @@ public class PhysicsObject : MonoBehaviour
         Velocity += acceleration * Time.deltaTime;
         Position += Velocity * Time.deltaTime;
         direction = Velocity.normalized;
+
+        RotateTowardsDirection();
 
         Bounce();
 
@@ -168,6 +170,11 @@ public class PhysicsObject : MonoBehaviour
     public void ApplyForce(Vector3 force)
     {
         acceleration += force / mass;
+    }
+
+    private void RotateTowardsDirection()
+    {
+        transform.rotation = Quaternion.LookRotation(direction);
     }
 
 }
