@@ -25,6 +25,8 @@ public class PhysicsObject : MonoBehaviour
     //Radius of the sprite, used in wall collision detection
     [SerializeField] public float radius;
 
+    [SerializeField] float rotationOffsetInDegrees = -90;
+
     //Flag to show if monster is on a floor or wall, used for friction
     public bool isInContactWithSurface;
 
@@ -174,7 +176,10 @@ public class PhysicsObject : MonoBehaviour
 
     private void RotateTowardsDirection()
     {
-        transform.rotation = Quaternion.LookRotation(direction);
+        //transform.rotation = Quaternion.LookRotation(direction);
+
+        float rotationAngle = Mathf.Atan2(Velocity.y, Velocity.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0, 0, rotationAngle + rotationOffsetInDegrees);
     }
 
 }

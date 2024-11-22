@@ -7,7 +7,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public abstract class Agent : MonoBehaviour
 {
-    [SerializeField] protected PhysicsObject physicsObject;
+    [SerializeField] public PhysicsObject physicsObject;
     [SerializeField] protected Agent target;
 
     protected abstract Vector3 CalcSteeringForce();

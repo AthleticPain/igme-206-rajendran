@@ -158,7 +158,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.21189055, g: 0.16375217, b: 0.4113207, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -214,103 +214,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2011106756 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 529325531977506408, guid: c9ef1dbc5e235824f94f4a9a470085ed, type: 3}
+--- !u!114 &2011106760 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3294565782456577676, guid: c9ef1dbc5e235824f94f4a9a470085ed, type: 3}
   m_PrefabInstance: {fileID: 742836985780290807}
   m_PrefabAsset: {fileID: 0}
---- !u!212 &2011106757 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 4620790602073751008, guid: c9ef1dbc5e235824f94f4a9a470085ed, type: 3}
-  m_PrefabInstance: {fileID: 742836985780290807}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2011106759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2011106756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c663553689494fd42bbb3b0de8ed2739, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  position: {x: 0, y: 0, z: 0}
-  direction: {x: 0, y: 0, z: 0}
-  velocity: {x: 0, y: 0, z: 0}
-  acceleration: {x: 0, y: 0, z: 0}
-  mass: 1
-  isFrictionActive: 0
-  isGravityActive: 0
-  gravityStrength: 10
-  maxSpeed: 1
-  lowerBoundaries: {x: 0, y: 0}
-  upperBoundaries: {x: 0, y: 0}
-  spriteRenderer: {fileID: 2011106757}
-  radius: 0
-  isInContactWithSurface: 0
-  coefficientOfFriction: 0.1
---- !u!114 &2011106760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2011106756}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 853c7e6262334a043b71b7e24a270057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  physicsObject: {fileID: 2011106759}
-  target: {fileID: 2048234849}
---- !u!1 &2048234845 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6965759414427588111, guid: 67e4a87b31ab6244986f1f2a09cd4921, type: 3}
+--- !u!114 &2048234849 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9170602066930503631, guid: 67e4a87b31ab6244986f1f2a09cd4921, type: 3}
   m_PrefabInstance: {fileID: 5685941746581463372}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2048234848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048234845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c663553689494fd42bbb3b0de8ed2739, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  position: {x: 0, y: 0, z: 0}
-  direction: {x: 0, y: 0, z: 0}
-  velocity: {x: 0, y: 0, z: 0}
-  acceleration: {x: 0, y: 0, z: 0}
-  mass: 1
-  isFrictionActive: 0
-  isGravityActive: 0
-  gravityStrength: 10
-  maxSpeed: 2
-  lowerBoundaries: {x: 0, y: 0}
-  upperBoundaries: {x: 0, y: 0}
-  spriteRenderer: {fileID: 0}
-  radius: 0
-  isInContactWithSurface: 0
-  coefficientOfFriction: 0.1
---- !u!114 &2048234849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2048234845}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54e9214f9ac002443a1e67dd52e37bdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  physicsObject: {fileID: 2048234848}
-  target: {fileID: 2011106760}
 --- !u!1001 &742836985780290807
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -363,16 +288,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3294565782456577676, guid: c9ef1dbc5e235824f94f4a9a470085ed, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2048234849}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 529325531977506408, guid: c9ef1dbc5e235824f94f4a9a470085ed, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2011106760}
-    - targetCorrespondingSourceObject: {fileID: 529325531977506408, guid: c9ef1dbc5e235824f94f4a9a470085ed, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2011106759}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9ef1dbc5e235824f94f4a9a470085ed, type: 3}
 --- !u!1001 &5685941746581463372
 PrefabInstance:
@@ -426,16 +349,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9170602066930503631, guid: 67e4a87b31ab6244986f1f2a09cd4921, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2011106760}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6965759414427588111, guid: 67e4a87b31ab6244986f1f2a09cd4921, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2048234849}
-    - targetCorrespondingSourceObject: {fileID: 6965759414427588111, guid: 67e4a87b31ab6244986f1f2a09cd4921, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2048234848}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67e4a87b31ab6244986f1f2a09cd4921, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

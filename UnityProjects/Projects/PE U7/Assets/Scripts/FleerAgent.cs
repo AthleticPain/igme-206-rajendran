@@ -11,11 +11,21 @@ public class FleerAgent : Agent
 
         float targetDistanceSquared = (myPos.x - targetPos.x) * (myPos.x - targetPos.x) + (myPos.y - targetPos.y) * (myPos.y - targetPos.y);
 
-        if(targetDistanceSquared < physicsObject.radius * physicsObject.radius)
+        if (targetDistanceSquared < (target.physicsObject.radius + physicsObject.radius) * (target.physicsObject.radius + physicsObject.radius))
         {
-            //Teleport logic here
+            TeleportToRandomPosOnScreen();
         }
 
         return Flee(target);
+    }
+
+    //Returns 
+    private void TeleportToRandomPosOnScreen()
+    {
+        Camera cam = Camera.main;
+        Vector2 RandomPosInScreenSpace = new Vector2(Random.Range(0, cam.pixelWidth), Random.Range(0, cam.pixelHeight));
+        Vector2 RandomPosInWorldSpace = cam.ScreenToWorldPoint(RandomPosInScreenSpace);
+
+        physicsObject.Position = RandomPosInWorldSpace;
     }
 }

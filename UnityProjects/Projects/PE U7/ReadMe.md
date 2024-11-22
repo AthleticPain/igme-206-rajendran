@@ -1,15 +1,15 @@
   
-**Game Project**:  PE U7 - Forces
+**Game Project**:  PE U8 - Seek and Flee
 
 **Creator**:  Ashank Rajendran
 
 **Version**:   0.1
 
-**Date**: 11/16/2024
+**Date**: 11/21/2024
 
 **New features**:
 Physics simulation
-Left click adds a force on all objects towards the mouse
+Seeker agent chases after fleer agent until caught, fleer agent teleports to random location after being caught
 
 ﻿  
 **Fixes**:
