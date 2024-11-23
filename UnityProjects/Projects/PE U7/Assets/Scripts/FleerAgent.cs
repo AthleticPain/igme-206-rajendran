@@ -28,4 +28,8 @@ public class FleerAgent : Agent
 
         physicsObject.Position = RandomPosInWorldSpace;
     }
+
+    protected override void Init()
+    {
+    }
 }

@@ -1,15 +1,15 @@
   
-**Game Project**:  PE U8 - Seek and Flee
+**Game Project**:  PE U9 - Wander and Bounds
 
 **Creator**:  Ashank Rajendran
 
 **Version**:   0.1
 
-**Date**: 11/21/2024
+**Date**: 11/23/2024
 
 **New features**:
 Physics simulation
-Seeker agent chases after fleer agent until caught, fleer agent teleports to random location after being caught
+Wanderer agent chases wanders around map and avoids borders
 
 ﻿  
 **Fixes**:

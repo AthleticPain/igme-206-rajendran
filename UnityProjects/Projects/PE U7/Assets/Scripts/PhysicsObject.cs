@@ -17,8 +17,8 @@ public class PhysicsObject : MonoBehaviour
     [SerializeField] float gravityStrength = 10;
     [SerializeField] public float maxSpeed = 100;
 
-    [SerializeField] Vector2 lowerBoundaries;
-    [SerializeField] Vector2 upperBoundaries;
+    [SerializeField] public Vector2 lowerBoundaries;
+    [SerializeField] public Vector2 upperBoundaries;
 
     [SerializeField] SpriteRenderer spriteRenderer;
 

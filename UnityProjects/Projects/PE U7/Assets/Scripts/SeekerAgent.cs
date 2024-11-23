@@ -19,4 +19,8 @@ public class SeekerAgent : Agent
 
         return Seek(target);
     }
+
+    protected override void Init()
+    {
+    }
 }
