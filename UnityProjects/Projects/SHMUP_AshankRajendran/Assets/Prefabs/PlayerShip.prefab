@@ -158,6 +158,8 @@ GameObject:
   - component: {fileID: 7134353848468501141}
   - component: {fileID: 7282460797904450036}
   - component: {fileID: 6928516388069143911}
+  - component: {fileID: 3048421607857858709}
+  - component: {fileID: 8573756177785146917}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -182,6 +184,7 @@ Transform:
   - {fileID: 947735152403093724}
   - {fileID: 7090657160495092756}
   - {fileID: 201939771911941809}
+  - {fileID: 235497813149729467}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
 --- !u!212 &7355102708404422411
@@ -251,11 +254,13 @@ MonoBehaviour:
   mass: 1
   horizontalAcceleration: 50
   verticalAcceleration: 50
+  maxSpeed: 10
   dragCoefficient: 0.5
-  inputValue: {x: 0, y: 0}
   acceleration: {x: 0, y: 0}
   velocity: {x: 0, y: 0}
   rocketTrail: {fileID: 6928516388069143911}
+  areBoundsActive: 1
+  inputValue: {x: 0, y: 0}
 --- !u!114 &7282460797904450036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,7 +303,19 @@ MonoBehaviour:
     m_ActionId: 42a4321d-0afd-4abc-b860-70b08a9d65c2
     m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8694531159820473850}
+        m_TargetAssemblyTypeName: PlayerGun, Assembly-CSharp
+        m_MethodName: OnFire
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 15b32181-ca48-43da-966c-f307a4e7f92f
     m_ActionName: Player/Fire[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
@@ -324,6 +341,86 @@ MonoBehaviour:
   lerpDuration: 0.2
   forwardLifetime: 0.3
   backwardsLifetime: 0
+--- !u!114 &3048421607857858709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7581990552767943820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a65b9c0f5be9e040bbe8b1c0e6f6ec4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 7355102708404422411}
+  collisionLayer: 1
+  useCustomColliderSize: 0
+  colliderSize: {x: 0, y: 0}
+--- !u!114 &8573756177785146917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7581990552767943820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d05273abbac86741b8ff60aebdccb28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: 10
+  playerShip: {fileID: 7134353848468501141}
+  damageForceMagnitude: 40000
+  _collider: {fileID: 3048421607857858709}
+--- !u!1 &8234742301418570898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 235497813149729467}
+  - component: {fileID: 8694531159820473850}
+  m_Layer: 0
+  m_Name: Gun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &235497813149729467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234742301418570898}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.43, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7090840622963607261}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8694531159820473850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8234742301418570898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f83267d7a863f248b191bde5ef154f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 11015939043786523, guid: 1cb036c7783fe3e4499b68c10d8da391, type: 3}
+  projectileSpawnLocation: {fileID: 235497813149729467}
+  spawnLocationOffset: {x: 0, y: 0}
+  fireRate: 0.4
 --- !u!1 &9093529924781521021
 GameObject:
   m_ObjectHideFlags: 0
