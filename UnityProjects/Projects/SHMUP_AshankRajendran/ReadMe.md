@@ -26,7 +26,9 @@ A shoot 'em up where you control a spaceship.
     -   Right: RightArrow or D
     - Left Analog Stick for Controller
 
--   Fire: 
+-   Firing
+    - Spacebar on keyboard
+    - Right Bumper on controller
 
 ## Your Additions
 
@@ -35,11 +37,15 @@ A shoot 'em up where you control a spaceship.
     - Parallax star field particle system
     - Dynamic rocket trail for spaceships
     - Controller support
+    - Enemy Spawning and movement paths
+    - Player firing
+    - Enemy firing
+    - Collision detection between ships and projectiles
 
 -   Yet to be Implemented:
     - Black holes with active gravity fields
     - Dynamically destructible asteroids
-    - Wave-based enemy spawning with set movement paths
+    - Wave-based enemy spawning
 
 ## Sources
 
