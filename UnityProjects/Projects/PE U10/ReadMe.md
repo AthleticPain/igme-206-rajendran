@@ -1,15 +1,15 @@
   
-**Game Project**:  PE U9 - Wander and Bounds
+**Game Project**:  PE U10 - Obstacle Avoidance
 
 **Creator**:  Ashank Rajendran
 
 **Version**:   0.1
 
-**Date**: 11/23/2024
+**Date**: 12/07/2024
 
 **New features**:
-Physics simulation
-Wanderer agent chases wanders around map and avoids borders
+Obstacle Avoidance
+Updated Stay in bounds behaviour
 
 ﻿  
 **Fixes**:

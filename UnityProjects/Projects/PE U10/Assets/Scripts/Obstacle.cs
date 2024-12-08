@@ -6,13 +6,15 @@ public class Obstacle : MonoBehaviour
 {
     public float radius;
     [SerializeField] SpriteRenderer spriteRenderer;
+
     private void Awake()
     {
-        if(!spriteRenderer)
+        if (!spriteRenderer)
         {
             spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
-        radius = spriteRenderer.bounds.size.x;
+        // Adjusted to account for consistent 2D behavior
+        radius = spriteRenderer.bounds.extents.x;
     }
 }

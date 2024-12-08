@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 
 public abstract class Agent : MonoBehaviour
@@ -148,26 +149,54 @@ public abstract class Agent : MonoBehaviour
 
     protected Vector3 StayInBounds()
     {
-        Vector3 lowerbounds = physicsObject.lowerBoundaries;
-        Vector3 upperBounds = physicsObject.upperBoundaries;
-
         Vector3 stayInBoundsForce = Vector3.zero;
 
-        if (currentFuturePos.x < lowerbounds.x + borderPadding || currentFuturePos.x > upperBounds.x - borderPadding)
+        Vector3 lowerBounds = physicsObject.lowerBoundaries + new Vector2(borderPadding, borderPadding);
+        Vector3 upperBounds = physicsObject.upperBoundaries - new Vector2(borderPadding, borderPadding);
+        Vector3 center = (lowerBounds + upperBounds) / 2;
+
+        // Calculate forces to move towards the center if near the edges
+        if (currentFuturePos.x < lowerBounds.x || currentFuturePos.x > upperBounds.x)
         {
-            stayInBoundsForce += Flee(currentFuturePos) * stayInBoundsForceWeightage;
+            // Steer towards the horizontal center
+            Vector3 centerDirection = new Vector3(center.x, currentFuturePos.y, 0) - transform.position;
+            stayInBoundsForce += centerDirection.normalized * stayInBoundsForceWeightage * physicsObject.maxSpeed;
         }
 
-        if (currentFuturePos.y < lowerbounds.y + borderPadding || currentFuturePos.y > upperBounds.y - borderPadding)
+        if (currentFuturePos.y < lowerBounds.y || currentFuturePos.y > upperBounds.y)
         {
-            stayInBoundsForce += Flee(currentFuturePos) * stayInBoundsForceWeightage;
+            // Steer towards the vertical center
+            Vector3 centerDirection = new Vector3(currentFuturePos.x, center.y, 0) - transform.position;
+            stayInBoundsForce += centerDirection.normalized * stayInBoundsForceWeightage * physicsObject.maxSpeed;
         }
 
         return stayInBoundsForce;
     }
 
+
+
     public Vector3 CalcFuturePosition(float time)
     {
         return physicsObject.Velocity * time + transform.position;
+    }
+
+    public Vector3 AvoidObstacles(List<Obstacle> obstacles, float avoidRadius)
+    {
+        Vector3 avoidanceForce = Vector3.zero;
+
+        foreach (var obstacle in obstacles)
+        {
+            Vector3 toObstacle = obstacle.transform.position - transform.position;
+            float distance = toObstacle.magnitude;
+
+            if (distance < avoidRadius + obstacle.radius)
+            {
+                Vector3 fleeDirection = -toObstacle.normalized;
+                float strength = (avoidRadius + obstacle.radius - distance) / (avoidRadius + obstacle.radius);
+                avoidanceForce += fleeDirection * strength * physicsObject.maxSpeed;
+            }
+        }
+
+        return avoidanceForce;
     }
 }
