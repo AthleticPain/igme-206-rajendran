@@ -7,6 +7,7 @@ public class CustomCollisionManager : MonoBehaviour
 {
     public static CustomCollisionManager instance;
 
+    public Transform playerShipTransform;
     [SerializeField] List<CustomCollider> allColliders = new List<CustomCollider>();
     [SerializeField] Vector2 worldBoundsMin;
     [SerializeField] Vector2 worldBoundsMax;

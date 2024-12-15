@@ -10,6 +10,7 @@ public class CustomCollider : MonoBehaviour
     [SerializeField] public CustomCollisionLayer collisionLayer;
 
     [SerializeField] bool useCustomColliderSize;
+
     public Vector2 colliderSize;
 
     CustomCollisionManager customCollisionManager;
@@ -22,7 +23,19 @@ public class CustomCollider : MonoBehaviour
     {
         get
         {
-            return spriteRenderer.bounds.min;
+            if (useCustomColliderSize)
+            {
+                return (Vector2)transform.position - colliderSize;
+            }
+
+            if (spriteRenderer)
+            {
+                return spriteRenderer.bounds.min;
+            }
+            else
+            {
+                return Vector2.zero;
+            }
         }
     }
 
@@ -30,7 +43,15 @@ public class CustomCollider : MonoBehaviour
     {
         get
         {
-            return spriteRenderer.bounds.max;
+            if (useCustomColliderSize)
+            {
+                return (Vector2)transform.position + colliderSize;
+            }
+
+            if (spriteRenderer)
+                return spriteRenderer.bounds.max;
+            else
+                return Vector2.zero;
         }
     }
 
@@ -47,7 +68,7 @@ public class CustomCollider : MonoBehaviour
         }
 
         customCollisionManager = CustomCollisionManager.instance;
-        if(customCollisionManager!=null)
+        if (customCollisionManager != null)
         {
             customCollisionManager.RegisterNewCollider(this);
         }
@@ -72,11 +93,11 @@ public class CustomCollider : MonoBehaviour
         Vector3 bottomLeft = position + new Vector3(-colliderSize.x / 2, -colliderSize.y / 2, 0);
         Vector3 bottomRight = position + new Vector3(colliderSize.x / 2, -colliderSize.y / 2, 0);
 
-
         Gizmos.DrawLine(topLeft, topRight);
         Gizmos.DrawLine(topRight, bottomRight);
         Gizmos.DrawLine(bottomRight, bottomLeft);
         Gizmos.DrawLine(bottomLeft, topLeft);
+
     }
 
     public void CollisionDetected(CustomCollider other)

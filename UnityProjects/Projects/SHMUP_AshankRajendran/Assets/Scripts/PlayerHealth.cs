@@ -1,13 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [SerializeField] int playerHealth = 10;
+    [SerializeField] int playerHealth = 100;
     [SerializeField] Ship playerShip;
     [SerializeField] float damageForceMagnitude = 4000;
     [SerializeField] CustomCollider _collider;
+    [SerializeField] TMP_Text healthText;
+    [SerializeField] GameOverManager gameOverManager;
+
+    public int PlayerHealthValue
+    {
+        get { return playerHealth; }
+        set 
+        { 
+            playerHealth = value;
+            healthText.text = "HP: " + playerHealth.ToString() + "%";
+
+            if (playerHealth <= 0)
+            {
+                playerHealth = 0;
+                healthText.text = "HP: 0%";
+                gameOverManager.ActivateWithDelay(2);
+                Destroy(gameObject);
+            }
+
+        }
+    }
 
     private void Awake()
     {
@@ -30,6 +52,7 @@ public class PlayerHealth : MonoBehaviour
     public void DealDamage(int damageValue, Vector3 direction)
     {
         playerShip.AddForceToShip(direction * damageForceMagnitude);
+        PlayerHealthValue -= damageValue;
     }
 
     void Collision(CustomCollider other)
@@ -39,7 +62,11 @@ public class PlayerHealth : MonoBehaviour
             Vector3 direction = other.transform.position - transform.position;
             direction.Normalize();
 
-            DealDamage(1, -direction);
+            DealDamage(10, -direction);
         }
+    }
+
+    private void OnDestroy()
+    {
     }
 }

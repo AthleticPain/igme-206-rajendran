@@ -7,8 +7,8 @@ public class EnemySpawner : MonoBehaviour
     public static EnemySpawner Instance;
 
     [SerializeField] int maxNumberOfEnemies = 10;
-    [SerializeField] float spawnRate = 2;
-    [SerializeField] GameObject enemyPrefab;
+    [SerializeField] float spawnDelay = 1;
+    [SerializeField] GameObject[] enemyPrefabs;
 
     [SerializeField] List<EnemyMovementPath> enemyMovementPaths;
 
@@ -25,7 +25,7 @@ public class EnemySpawner : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating(nameof(SpawnEnemy), 0, spawnRate);
+        InvokeRepeating(nameof(SpawnEnemy), 0, spawnDelay);
     }
 
     public void RegisterNewEnemy(Enemy enemy)
@@ -44,6 +44,8 @@ public class EnemySpawner : MonoBehaviour
         {
             Vector3 spawnPosition = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Count)].position;
             EnemyMovementPath enemyMovementPath = enemyMovementPaths[Random.Range(0, enemyMovementPaths.Count)];
+
+            GameObject enemyPrefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
 
             Enemy newEnemy = Instantiate(enemyPrefab, spawnPosition, enemyPrefab.transform.rotation).GetComponent<Enemy>();
             RegisterNewEnemy(newEnemy);

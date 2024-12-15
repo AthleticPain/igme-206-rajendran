@@ -5,6 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] int health = 5;
+    [SerializeField] int scoreValue = 10;
     [SerializeField] GameObject projectilePrefab;
     [SerializeField] Transform fireSpawnpoint;
     [SerializeField] float fireRate = 0.5f;
@@ -74,6 +75,7 @@ public class Enemy : MonoBehaviour
 
     private void OnDestroy()
     {
+        ScoreController.Instance.AddToScore(scoreValue);
         EnemySpawner.Instance.DeregisterEnemy(this);
     }
 }
