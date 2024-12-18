@@ -42,18 +42,22 @@ The objective of the game is to kill as many enemy ships as possible before dyin
     - Dynamic rocket trail for spaceships
     	- Rocket trail particle effect is dynamic and enlarges, shrinks and bends depending on the movemenet direction of the ship. 
     - Full Controller support
-	This game is fully playable with a controller
+	- This game is fully playable with a controller
     - Enemy Spawning and movement paths
-	Enemies are spawned one by one on a delay based timer. There is a limit to how many enemies can be on screen at a single time. If there are that many enemies on screen, new enemies will not spawn in.
-    -   Enemies are assigned one of 4 different movement paths on spawn. These movement paths containt a list of waypoints. The enemy moves by seeking these waypoints sequentially.
+	- Enemies are spawned one by one on a delay based timer. There is a limit to how many enemies can be on screen at a single time. If there are that many enemies on screen, new enemies will not spawn in.
+    	- Enemies are assigned one of 4 different movement paths on spawn. These movement paths containt a list of waypoints. The enemy moves by seeking these waypoints sequentially.
     - Black holes with active gravity fields
-	Black holes spawn periodically and move across the screen. They feature a bespoke particle effect. They have their own gravity field which pulls player ships, enemy ships, projectiles and small asteroids towards it. During gameplay use black holes to bend your projectiles while being wary of less predictable enemy projectiles due to the same effect.
+	- Black holes spawn periodically and move across the screen. They feature a bespoke particle effect. They have their own gravity field which pulls player ships, enemy ships, projectiles and small asteroids towards it. During gameplay use black holes to bend your projectiles while being wary of less predictable enemy projectiles due to the same effect.
     - Dynamically destructible asteroids
-	Asteroids will spawn in periodically and travel across the screen. There are two types of asteroids: Large asteroids and mini asteroids. Large asteroids only collide with the player and player projectiles. Mini asteroids collide with enemies and destroy them. 
-	Large asteroids will be destroyed after being hit 30 times by the player. When they are destroyed the spawn a bunch of mini asteroids that scatter across the screen semi randomly in the direction of the enemies.
-	The design intention is that players should destroy large asteroids in order to spawn these mini asteroids which are incredibly useful at clearing out the map.
+	- Asteroids will spawn in periodically and travel across the screen. There are two types of asteroids: Large asteroids and mini asteroids. Large asteroids only collide with the player and player projectiles. Mini asteroids collide with enemies and destroy them. 
+	- Large asteroids will be destroyed after being hit 30 times by the player. When they are destroyed the spawn a bunch of mini asteroids that scatter across the screen semi randomly in the direction of the enemies.
+	- The design intention is that players should destroy large asteroids in order to spawn these mini asteroids which are incredibly useful at clearing out the map.
     - Destruction VFX
-	A particle effect created from scratch is played whenever a ship is destroyed.
+	- A particle effect created from scratch is played whenever a ship is destroyed.
+ - Steering Projectiles
+ 	- Enemy Projectile: Enemy type 2 spawns a slow moving homing projectile which implements a seek algorithm to move towards the player. If enemy homing projectile has travelled past the player it will no longer seek the player ship and will continue on its current velocity.
+  	- Player Projectile: Player secondary fire launches a homing projectile that uses Pursue steering behaviour to target one specific enemy. When enemy is destroyed,  the projectile automatically changes target to a next enemy ship.
+   	- Unlike the enemy homing projectile, this player homing projectile will continue to pursue the enemy even if it has overshot and gone past it, it will turn around and continue to pursue the enemy ship (unless it overshoots offscreen and gets destroyed). 
  
 -   Abandoned:
     - Wave-based enemy spawning
