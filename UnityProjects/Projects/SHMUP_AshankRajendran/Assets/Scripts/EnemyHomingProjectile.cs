@@ -16,10 +16,14 @@ public class EnemyHomingProjectile : EnemyProjectile
     {
         transform.eulerAngles += new Vector3(0, 0, rotationSpeedInDegrees * Time.deltaTime);
 
-        if ((transform.position - targetTransform.position).x > 0)
+        if (targetTransform != null)
         {
-            AddForceToProjectile(Seek(targetTransform));
+            if ((transform.position - targetTransform.position).x > 0)
+            {
+                AddForceToProjectile(Seek(targetTransform));
+            }
         }
+
         base.Update();
     }
 }

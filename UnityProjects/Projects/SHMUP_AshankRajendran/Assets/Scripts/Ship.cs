@@ -17,12 +17,19 @@ public abstract class Ship : MonoBehaviour
     [SerializeField] protected RocketTrail rocketTrail;
 
     [SerializeField] protected bool areBoundsActive = true;
+
+    [SerializeField] GameObject destroyedVFX;
     protected Vector2 minBounds, maxBounds;
     private Camera mainCamera;
     private Vector2 previousResolution;
 
     SpriteRenderer spriteRenderer;
     protected float spriteWidthFromCenter, spriteHeightFromCenter;
+
+    public Vector2 Velocty
+    {
+        get { return velocity; }
+    }
 
     private void Awake()
     {
@@ -133,6 +140,11 @@ public abstract class Ship : MonoBehaviour
 
             yield return new WaitForSeconds(0.1f);
         }
+    }
+
+    public void SpawnDestructionVFX()
+    {
+        Instantiate(destroyedVFX, transform.position, Quaternion.identity);
     }
 
 }

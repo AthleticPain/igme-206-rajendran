@@ -177,6 +177,7 @@ MonoBehaviour:
   velocity: {x: 0, y: 0}
   rocketTrail: {fileID: 0}
   areBoundsActive: 0
+  destroyedVFX: {fileID: 5794767156120092972, guid: 7ad1a7fda7ed6e74aa827ed8a3a3bfa6, type: 3}
   enemyMovementPath:
     waypoints: []
   currentTarget: {fileID: 0}

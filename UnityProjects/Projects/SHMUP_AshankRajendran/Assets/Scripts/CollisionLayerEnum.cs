@@ -6,5 +6,6 @@ public enum CustomCollisionLayer
     PlayerProjectile,
     EnemyShip,
     EnemyProjectile,
-    Blackhole
+    Blackhole,
+    Asteroid
 }

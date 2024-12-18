@@ -25,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
                 playerHealth = 0;
                 healthText.text = "HP: 0%";
                 gameOverManager.ActivateWithDelay(2);
+                playerShip.SpawnDestructionVFX();
                 Destroy(gameObject);
             }
 

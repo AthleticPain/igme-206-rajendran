@@ -64,6 +64,24 @@ public abstract class Projectile : MonoBehaviour
         return seekingForce;
     }
 
+    protected Vector3 Pursue(Transform target, Vector2 targetVelocity, float lookAheadTime)
+    {        
+        Vector2 targetPos = (Vector2)target.position + (targetVelocity * lookAheadTime * Time.deltaTime);
+        Vector2 myPos = transform.position;
+
+        // Calculate desired velocity
+        Vector2 desiredVelocity = targetPos - myPos;
+
+        // Set desired = max speed
+        desiredVelocity = desiredVelocity.normalized * projectileSpeed;
+
+        // Calculate seek steering force
+        Vector2 pursueForce = desiredVelocity - velocity;
+
+        // Return seek steering force
+        return pursueForce;
+    }
+
     protected abstract void OnCustomCollision(CustomCollider other);
 
 }

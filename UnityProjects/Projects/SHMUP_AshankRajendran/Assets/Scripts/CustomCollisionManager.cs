@@ -75,4 +75,17 @@ public class CustomCollisionManager : MonoBehaviour
             }
         }
     }
+
+    public EnemyShipController GetEnemyShip()
+    {
+        foreach (CustomCollider collider in allColliders)
+        {
+            if(collider.collisionLayer == CustomCollisionLayer.EnemyShip)
+            {
+                return collider.GetComponent<EnemyShipController>();
+            }
+        }
+
+        return null;
+    }
 }

@@ -260,6 +260,7 @@ MonoBehaviour:
   velocity: {x: 0, y: 0}
   rocketTrail: {fileID: 6928516388069143911}
   areBoundsActive: 1
+  destroyedVFX: {fileID: 5794767156120092972, guid: 7ad1a7fda7ed6e74aa827ed8a3a3bfa6, type: 3}
   inputValue: {x: 0, y: 0}
 --- !u!114 &7282460797904450036
 MonoBehaviour:
@@ -318,6 +319,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 15b32181-ca48-43da-966c-f307a4e7f92f
     m_ActionName: Player/Fire[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6fc94f6c-f475-4044-a600-e2fa46f4476a
+    m_ActionName: Player/Fire2[/Keyboard/x,/Keyboard/m]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -419,10 +424,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f83267d7a863f248b191bde5ef154f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 11015939043786523, guid: 1cb036c7783fe3e4499b68c10d8da391, type: 3}
+  primaryProjectilePrefab: {fileID: 0}
+  secondaryProjectilePrefab: {fileID: 0}
   projectileSpawnLocation: {fileID: 235497813149729467}
   spawnLocationOffset: {x: 0, y: 0}
-  fireRate: 0.5
+  primaryFireRate: 0.2
+  secondaryFireRate: 2
 --- !u!1 &9093529924781521021
 GameObject:
   m_ObjectHideFlags: 0

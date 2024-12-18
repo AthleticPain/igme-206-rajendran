@@ -5,13 +5,17 @@ using UnityEngine.InputSystem;
 
 public class PlayerGun : MonoBehaviour
 {
-    [SerializeField] GameObject projectilePrefab;
+    [SerializeField] GameObject primaryProjectilePrefab;
+    [SerializeField] GameObject secondaryProjectilePrefab;
+
     [SerializeField] Transform projectileSpawnLocation;
     [SerializeField] Vector2 spawnLocationOffset;
 
     private PlayerInputActions inputActions;
-    private bool isFiring;
-    public float fireRate = 0.2f; // Seconds between shots
+    private bool isFiringPrimary;
+    private bool isFiringSecondary;
+    public float primaryFireRate = 0.2f; // Seconds between shots for primary projectile
+    public float secondaryFireRate = 2f; // Seconds between shots for secondary projectile
 
     private void Awake()
     {
@@ -21,34 +25,62 @@ public class PlayerGun : MonoBehaviour
     private void OnEnable()
     {
         inputActions.Enable();
-        inputActions.Player.Fire.started += OnFireStarted;
-        inputActions.Player.Fire.canceled += OnFireCanceled;
+
+        inputActions.Player.Fire.started += OnPrimaryFireStarted;
+        inputActions.Player.Fire.canceled += OnPrimaryFireCanceled;
+
+        inputActions.Player.Fire2.started += OnSeccondaryFireStarted;
+        inputActions.Player.Fire2.canceled += OnSeondaryFireCanceled;
     }
 
     private void OnDisable()
     {
-        inputActions.Player.Fire.started -= OnFireStarted;
-        inputActions.Player.Fire.canceled -= OnFireCanceled;
+        inputActions.Player.Fire.started -= OnPrimaryFireStarted;
+        inputActions.Player.Fire.canceled -= OnPrimaryFireCanceled;
+
+        inputActions.Player.Fire2.started -= OnSeccondaryFireStarted;
+        inputActions.Player.Fire2.canceled -= OnSeondaryFireCanceled;
+
         inputActions.Disable();
     }
 
-    void OnFireStarted(InputAction.CallbackContext context)
+    void OnPrimaryFireStarted(InputAction.CallbackContext context)
     {
-        isFiring = true;
-        InvokeRepeating(nameof(Fire), 0f, fireRate);
+        isFiringPrimary = true;
+        InvokeRepeating(nameof(FirePrimary), 0f, primaryFireRate);
     }
 
-    void OnFireCanceled(InputAction.CallbackContext context)
+    void OnPrimaryFireCanceled(InputAction.CallbackContext context)
     {
-        isFiring = false;
-        CancelInvoke(nameof(Fire));
+        isFiringPrimary = false;
+        CancelInvoke(nameof(FirePrimary));
     }
 
-    private void Fire()
+    void OnSeccondaryFireStarted(InputAction.CallbackContext context)
     {
-        if (isFiring)
+        isFiringSecondary = true;
+        InvokeRepeating(nameof(FireSecondary), 0f, secondaryFireRate);
+    }
+
+    void OnSeondaryFireCanceled(InputAction.CallbackContext context)
+    {
+        isFiringSecondary = false;
+        CancelInvoke(nameof(FireSecondary));
+    }
+
+    private void FirePrimary()
+    {
+        if (isFiringPrimary)
         {
-            Instantiate(projectilePrefab, projectileSpawnLocation.position, Quaternion.identity);
+            Instantiate(primaryProjectilePrefab, projectileSpawnLocation.position, Quaternion.identity);
+        }
+    }
+
+    private void FireSecondary()
+    {
+        if (isFiringSecondary)
+        {
+            Instantiate(secondaryProjectilePrefab, projectileSpawnLocation.position, Quaternion.identity);
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "name": "SHMUP_AshankRajendran",
+    "name": "PlayerInputActions",
     "maps": [
         {
             "name": "Player",
@@ -22,6 +22,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Fire2",
+                    "type": "Button",
+                    "id": "6fc94f6c-f475-4044-a600-e2fa46f4476a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -176,6 +185,39 @@
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
                     "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b3d0d31-62c7-4d57-bc08-44084bbff197",
+                    "path": "<Keyboard>/#(X)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4c934ff7-7a1e-4682-8ec0-9b99532334ca",
+                    "path": "<Keyboard>/#(M)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "676779a7-390a-4295-a861-862bc5e71c52",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

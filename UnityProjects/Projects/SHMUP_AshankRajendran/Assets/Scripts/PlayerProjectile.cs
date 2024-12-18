@@ -20,7 +20,7 @@ public class PlayerProjectile : Projectile
             
             Destroy(gameObject);
         }
-        else if(other.collisionLayer == CustomCollisionLayer.EnemyProjectile)
+        else if(other.collisionLayer == CustomCollisionLayer.EnemyProjectile || other.collisionLayer == CustomCollisionLayer.Asteroid)
         {
             Destroy(gameObject);
         }

@@ -57,6 +57,7 @@ public class Enemy : MonoBehaviour
     }
     private void Kill()
     {
+        shipController.SpawnDestructionVFX();
         Destroy(gameObject);
     }
 
