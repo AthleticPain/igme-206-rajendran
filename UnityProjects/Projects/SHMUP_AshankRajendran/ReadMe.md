@@ -40,7 +40,7 @@ The objective of the game is to kill as many enemy ships as possible before dyin
 -   Implemented:
     - Infinite scrolling parallax background and Parallax star field particle system (One near field and one far field) to give the player a sense of hyperspeed even though the camera is actually static.
     - Dynamic rocket trail for spaceships
-	Rocket trail particle effect is dynamic and enlarges, shrinks and bends depending on the movemenet direction of the ship. 
+    	- Rocket trail particle effect is dynamic and enlarges, shrinks and bends depending on the movemenet direction of the ship. 
     - Full Controller support
 	This game is fully playable with a controller
     - Enemy Spawning and movement paths
